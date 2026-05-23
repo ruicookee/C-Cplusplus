@@ -11,8 +11,16 @@ To calc area of circle in metres
 int main() {
     double area = 0.0, radius = 0.0; // double decimals with higher precision than float
     printf("Enter Radius: ");
-    scanf("%lf", &radius); 
+    scanf("%lf", &radius); //scanf("format", varaible_address)
     area = PI * radius * radius;
     printf("Radius of %lf metres; area is %lf sqmetres\n", radius, area);
     return 0;
 }
+
+/*format specifiers
+%d	integer (int)
+%f	float
+%lf	double
+%c	character
+%s	string
+*/
