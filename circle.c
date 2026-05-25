@@ -8,7 +8,7 @@ To calc area of circle in metres
 // or you can even do func-like macro #define SQUARE(x) ((x) * (x))
 // rmb () cause dumb text replacement
 
-int main() {
+int main() { //unspecified arguments
     double area = 0.0, radius = 0.0; // double decimals with higher precision than float
     printf("Enter Radius: ");
     scanf("%lf", &radius); //scanf("format", varaible_address)
