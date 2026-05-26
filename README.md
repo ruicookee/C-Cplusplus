@@ -1,2 +1,3 @@
 # C-Cplusplus
-Why is this so hard
+The Indomitable Maobean Spirit vs C
+Maobean will prevail
