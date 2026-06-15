@@ -22,3 +22,11 @@
 ## int + double = double
 
 rest are intuitive i believe...?
+
+## Fundamental Types
+- char
+- int
+- double
+## Modifiers
+- unsigned
+- long
