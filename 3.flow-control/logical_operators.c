@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 //get_inputs(give me the addresses of two ints), basically func expects 2 pointers to ints
-void get_inputs(int *outside, int *weather) {
+void get_inputs(int *outside, int *weather) { // * because func must modify variables in main()
     //the func then writes into the 2 memories provided by caller
     //this is pass by reference, not pass by value, to c1 and c2 later
     printf("Enter if Outside (True=1, False=0): ");
@@ -14,7 +14,7 @@ void get_inputs(int *outside, int *weather) {
     scanf("%d", weather);
 }
 
-int evaluation(int condition1, int condition2) { 
+int evaluation(int condition1, int condition2) { // no * because func only evaluates
     if (condition1 && condition2) 
         return 1;
     else

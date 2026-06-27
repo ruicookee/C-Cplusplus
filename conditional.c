@@ -14,7 +14,7 @@ int speeding(int speed) {
         return 0;
 }
 
-
+//putting it all together
 int main(void) { 
     int result;
     int speed;
